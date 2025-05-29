@@ -46,6 +46,10 @@ return {
                 "rust_analyzer",
                 "tsserver",
                 "gopls",
+                'clangd',
+                'lua_ls',
+                'bashls',
+                'lemminx',
             },
             handlers = {
                 function(server_name) -- default handler (optional)
