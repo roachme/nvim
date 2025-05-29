@@ -33,6 +33,14 @@ return {
         vim.keymap.set("n", "<leader><C-h>", function()
             harpoon:list():replace_at(1)
         end)
-
+        vim.keymap.set("n", "<leader><C-t>", function()
+            harpoon:list():replace_at(2)
+        end)
+        vim.keymap.set("n", "<leader><C-n>", function()
+            harpoon:list():replace_at(3)
+        end)
+        vim.keymap.set("n", "<leader><C-s>", function()
+            harpoon:list():replace_at(4)
+        end)
     end
 }
