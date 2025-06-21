@@ -1,4 +1,5 @@
 return {
+    --[[
     "nvim-neotest/neotest",
     dependencies = {
         "nvim-neotest/nvim-nio",
@@ -52,4 +53,5 @@ return {
         end, { desc = "Debug: Open test output" })
 
     end
+    ]]
 }
