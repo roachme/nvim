@@ -141,6 +141,7 @@ return {
         end,
     },
 
+    --[[
     {
         "jay-babu/mason-nvim-dap.nvim",
         dependencies = {
@@ -181,4 +182,5 @@ return {
             })
         end,
     },
+    ]]
 }
